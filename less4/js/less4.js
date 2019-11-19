@@ -12,7 +12,7 @@ let substring = prompt("Введите подстроку", "под");
 
     for (let i = 0; i < string.length; i++) {
     let str = string[i];
-    //console.log(str);
+  
     if(str === substring) {
         console.log(i);
     }
