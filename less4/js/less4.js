@@ -12,7 +12,6 @@ let substring = prompt("Введите подстроку", "под");
 
     for (let i = 0; i < string.length; i++) {
     let str = string[i];
-  
     if(str === substring) {
         console.log(i);
     }
@@ -26,10 +25,9 @@ palindrome = str => {
         let tr = str.split('').reverse().join('');
         console.log(tr);
         if (str === tr) {
-        console.log("Да");
+        console.log("+");
     }   else {
-        console.log("Нет");
+        console.log("-");
     }
 };
-
-palindrome("qwe");
+        palindrome("qwe");
