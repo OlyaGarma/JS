@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Less7</title>
+  <link rel="stylesheet" href="css/less7.css">
+</head>
+  <body>
+    <div id="table1"></div>
+    <form name="click">
+      <fieldset>
+        <legend>Введите текст</legend>
+        <label>Поставьте галочку, что бы ввести текст</label>
+        <input type="checkbox" id="checkbox">
+        <input type="text" id="text" disabled>
+      </fieldset>
+    </form>
+  <form name="less7">
+    <fieldset>
+      <legend>Ввод данных</legend>
+      <div>
+        <label for="login">Логин</label>
+        <input name="login" id="login" type="text">
+        <span class="info-block">
+          Минимум от 4 до 10 символов
+        </span>
+      </div>
+      <br>
+      <div>
+        <label for="password">Пароль</label>
+        <input name="password" id="password" type="password">
+        <span class="info-block">
+          Минимум 6 символов
+        </span>
+      </div>
+      <br>
+      <input type="submit" value="Отправить">
+      <input type="reset" value="Очистить">
+    </fieldset>
+  </form>
+  <script src="js/less7.js"></script>
+</body>
+</html>
